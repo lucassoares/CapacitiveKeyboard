@@ -1,5 +1,6 @@
-# CapacitiveKeyboard
-Capacitive Keyboard in Arduino with Aluminium Foil
+# Capacitive Keyboard
+Teclado musical feito com Arduino e sensores capacitivos, utilizando folhas de papel alumínio como material primário.
+
 
 <h2>Esquema </h2>
 <img src="Esquema.PNG" />
