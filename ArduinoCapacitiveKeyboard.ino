@@ -27,8 +27,7 @@ CapacitiveSensor capSensor6 = CapacitiveSensor(inputPin,8);
 CapacitiveSensor capSensor7 = CapacitiveSensor(inputPin,9);
 
 void setup() {
-  Serial.begin(9600);
-  Serial.println("Hello World");
+  
 }
 
 void loop() {
@@ -41,35 +40,28 @@ void loop() {
   sensorValue7 = capSensor7.capacitiveSensor(30);
 
  if(sensorValue1 > comparationValue){
-  Serial.println("First sensor");
   BuzzerSound(note1);
  }
  
  else if(sensorValue2 > comparationValue){
-  Serial.println("Second sensor");
   BuzzerSound(note2);
  }
   
  else if(sensorValue3 > comparationValue){
-  Serial.println("Third sensor");
   BuzzerSound(note3);
  }
  
  else if(sensorValue4 > comparationValue){
-  Serial.println("Fourth sensor");
   BuzzerSound(note4);
  }
  
  else if(sensorValue5 > comparationValue){
-  Serial.println("Fifth sensor");
   BuzzerSound(note5);
  }
  else if(sensorValue6 > comparationValue){
-  Serial.println("Sixth sensor");
   BuzzerSound(note6);  
  }
  else if(sensorValue7 > comparationValue){
-  Serial.println("Seventh sensor");
   BuzzerSound(note7);
  }
   else{
